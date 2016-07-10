@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0C5CD81D320E4E00C1E84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C5CD71D320E4E00C1E84E /* main.m */; };
+		4A0C5CDB1D320E4E00C1E84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C5CDA1D320E4E00C1E84E /* AppDelegate.m */; };
+		4A0C5CDE1D320E4E00C1E84E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C5CDD1D320E4E00C1E84E /* ViewController.m */; };
+		4A0C5CE11D320E4E00C1E84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0C5CDF1D320E4E00C1E84E /* Main.storyboard */; };
+		4A0C5CE31D320E4E00C1E84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0C5CE21D320E4E00C1E84E /* Assets.xcassets */; };
+		4A0C5CE61D320E4E00C1E84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0C5CE41D320E4E00C1E84E /* LaunchScreen.storyboard */; };
+		4A0C5CF11D320E4E00C1E84E /* ScheduleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C5CF01D320E4E00C1E84E /* ScheduleTableTests.m */; };
+		4A0C5CFC1D320E4E00C1E84E /* ScheduleTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C5CFB1D320E4E00C1E84E /* ScheduleTableUITests.m */; };
+		4A0C5D0C1D320EC100C1E84E /* ScheduleTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C5D0B1D320EC100C1E84E /* ScheduleTable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0C5CED1D320E4E00C1E84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0C5CCB1D320E4E00C1E84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0C5CD21D320E4E00C1E84E;
+			remoteInfo = ScheduleTable;
+		};
+		4A0C5CF81D320E4E00C1E84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0C5CCB1D320E4E00C1E84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0C5CD21D320E4E00C1E84E;
+			remoteInfo = ScheduleTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0C5CD31D320E4E00C1E84E /* ScheduleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0C5CD71D320E4E00C1E84E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0C5CD91D320E4E00C1E84E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0C5CDA1D320E4E00C1E84E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0C5CDC1D320E4E00C1E84E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A0C5CDD1D320E4E00C1E84E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A0C5CE01D320E4E00C1E84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0C5CE21D320E4E00C1E84E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0C5CE51D320E4E00C1E84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0C5CE71D320E4E00C1E84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0C5CEC1D320E4E00C1E84E /* ScheduleTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0C5CF01D320E4E00C1E84E /* ScheduleTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableTests.m; sourceTree = "<group>"; };
+		4A0C5CF21D320E4E00C1E84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0C5CF71D320E4E00C1E84E /* ScheduleTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0C5CFB1D320E4E00C1E84E /* ScheduleTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableUITests.m; sourceTree = "<group>"; };
+		4A0C5CFD1D320E4E00C1E84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0C5D0A1D320EC100C1E84E /* ScheduleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTable.h; sourceTree = "<group>"; };
+		4A0C5D0B1D320EC100C1E84E /* ScheduleTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0C5CD01D320E4E00C1E84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C5CE91D320E4E00C1E84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C5CF41D320E4E00C1E84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0C5CCA1D320E4E00C1E84E = {
+			isa = PBXGroup;
+			children = (
+				4A0C5CD51D320E4E00C1E84E /* ScheduleTable */,
+				4A0C5CEF1D320E4E00C1E84E /* ScheduleTableTests */,
+				4A0C5CFA1D320E4E00C1E84E /* ScheduleTableUITests */,
+				4A0C5CD41D320E4E00C1E84E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0C5CD41D320E4E00C1E84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C5CD31D320E4E00C1E84E /* ScheduleTable.app */,
+				4A0C5CEC1D320E4E00C1E84E /* ScheduleTableTests.xctest */,
+				4A0C5CF71D320E4E00C1E84E /* ScheduleTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0C5CD51D320E4E00C1E84E /* ScheduleTable */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C5CDC1D320E4E00C1E84E /* ViewController.h */,
+				4A0C5CDD1D320E4E00C1E84E /* ViewController.m */,
+				4A0C5D091D320EAA00C1E84E /* ScheduleTable */,
+				4A0C5CD61D320E4E00C1E84E /* Supporting Files */,
+			);
+			path = ScheduleTable;
+			sourceTree = "<group>";
+		};
+		4A0C5CD61D320E4E00C1E84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C5CD91D320E4E00C1E84E /* AppDelegate.h */,
+				4A0C5CDA1D320E4E00C1E84E /* AppDelegate.m */,
+				4A0C5CDF1D320E4E00C1E84E /* Main.storyboard */,
+				4A0C5CE21D320E4E00C1E84E /* Assets.xcassets */,
+				4A0C5CE41D320E4E00C1E84E /* LaunchScreen.storyboard */,
+				4A0C5CE71D320E4E00C1E84E /* Info.plist */,
+				4A0C5CD71D320E4E00C1E84E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0C5CEF1D320E4E00C1E84E /* ScheduleTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C5CF01D320E4E00C1E84E /* ScheduleTableTests.m */,
+				4A0C5CF21D320E4E00C1E84E /* Info.plist */,
+			);
+			path = ScheduleTableTests;
+			sourceTree = "<group>";
+		};
+		4A0C5CFA1D320E4E00C1E84E /* ScheduleTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C5CFB1D320E4E00C1E84E /* ScheduleTableUITests.m */,
+				4A0C5CFD1D320E4E00C1E84E /* Info.plist */,
+			);
+			path = ScheduleTableUITests;
+			sourceTree = "<group>";
+		};
+		4A0C5D091D320EAA00C1E84E /* ScheduleTable */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C5D0A1D320EC100C1E84E /* ScheduleTable.h */,
+				4A0C5D0B1D320EC100C1E84E /* ScheduleTable.m */,
+			);
+			path = ScheduleTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0C5CD21D320E4E00C1E84E /* ScheduleTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0C5D001D320E4E00C1E84E /* Build configuration list for PBXNativeTarget "ScheduleTable" */;
+			buildPhases = (
+				4A0C5CCF1D320E4E00C1E84E /* Sources */,
+				4A0C5CD01D320E4E00C1E84E /* Frameworks */,
+				4A0C5CD11D320E4E00C1E84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScheduleTable;
+			productName = ScheduleTable;
+			productReference = 4A0C5CD31D320E4E00C1E84E /* ScheduleTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0C5CEB1D320E4E00C1E84E /* ScheduleTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0C5D031D320E4E00C1E84E /* Build configuration list for PBXNativeTarget "ScheduleTableTests" */;
+			buildPhases = (
+				4A0C5CE81D320E4E00C1E84E /* Sources */,
+				4A0C5CE91D320E4E00C1E84E /* Frameworks */,
+				4A0C5CEA1D320E4E00C1E84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0C5CEE1D320E4E00C1E84E /* PBXTargetDependency */,
+			);
+			name = ScheduleTableTests;
+			productName = ScheduleTableTests;
+			productReference = 4A0C5CEC1D320E4E00C1E84E /* ScheduleTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0C5CF61D320E4E00C1E84E /* ScheduleTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0C5D061D320E4E00C1E84E /* Build configuration list for PBXNativeTarget "ScheduleTableUITests" */;
+			buildPhases = (
+				4A0C5CF31D320E4E00C1E84E /* Sources */,
+				4A0C5CF41D320E4E00C1E84E /* Frameworks */,
+				4A0C5CF51D320E4E00C1E84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0C5CF91D320E4E00C1E84E /* PBXTargetDependency */,
+			);
+			name = ScheduleTableUITests;
+			productName = ScheduleTableUITests;
+			productReference = 4A0C5CF71D320E4E00C1E84E /* ScheduleTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0C5CCB1D320E4E00C1E84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LJR;
+				TargetAttributes = {
+					4A0C5CD21D320E4E00C1E84E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4A0C5CEB1D320E4E00C1E84E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0C5CD21D320E4E00C1E84E;
+					};
+					4A0C5CF61D320E4E00C1E84E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0C5CD21D320E4E00C1E84E;
+					};
+				};
+			};
+			buildConfigurationList = 4A0C5CCE1D320E4E00C1E84E /* Build configuration list for PBXProject "ScheduleTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0C5CCA1D320E4E00C1E84E;
+			productRefGroup = 4A0C5CD41D320E4E00C1E84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0C5CD21D320E4E00C1E84E /* ScheduleTable */,
+				4A0C5CEB1D320E4E00C1E84E /* ScheduleTableTests */,
+				4A0C5CF61D320E4E00C1E84E /* ScheduleTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0C5CD11D320E4E00C1E84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C5CE61D320E4E00C1E84E /* LaunchScreen.storyboard in Resources */,
+				4A0C5CE31D320E4E00C1E84E /* Assets.xcassets in Resources */,
+				4A0C5CE11D320E4E00C1E84E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C5CEA1D320E4E00C1E84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C5CF51D320E4E00C1E84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0C5CCF1D320E4E00C1E84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C5CDE1D320E4E00C1E84E /* ViewController.m in Sources */,
+				4A0C5CDB1D320E4E00C1E84E /* AppDelegate.m in Sources */,
+				4A0C5CD81D320E4E00C1E84E /* main.m in Sources */,
+				4A0C5D0C1D320EC100C1E84E /* ScheduleTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C5CE81D320E4E00C1E84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C5CF11D320E4E00C1E84E /* ScheduleTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C5CF31D320E4E00C1E84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C5CFC1D320E4E00C1E84E /* ScheduleTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0C5CEE1D320E4E00C1E84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0C5CD21D320E4E00C1E84E /* ScheduleTable */;
+			targetProxy = 4A0C5CED1D320E4E00C1E84E /* PBXContainerItemProxy */;
+		};
+		4A0C5CF91D320E4E00C1E84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0C5CD21D320E4E00C1E84E /* ScheduleTable */;
+			targetProxy = 4A0C5CF81D320E4E00C1E84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0C5CDF1D320E4E00C1E84E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0C5CE01D320E4E00C1E84E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0C5CE41D320E4E00C1E84E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0C5CE51D320E4E00C1E84E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0C5CFE1D320E4E00C1E84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0C5CFF1D320E4E00C1E84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0C5D011D320E4E00C1E84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJR.ScheduleTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A0C5D021D320E4E00C1E84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJR.ScheduleTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A0C5D041D320E4E00C1E84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScheduleTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJR.ScheduleTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleTable.app/ScheduleTable";
+			};
+			name = Debug;
+		};
+		4A0C5D051D320E4E00C1E84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScheduleTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJR.ScheduleTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleTable.app/ScheduleTable";
+			};
+			name = Release;
+		};
+		4A0C5D071D320E4E00C1E84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScheduleTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJR.ScheduleTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScheduleTable;
+			};
+			name = Debug;
+		};
+		4A0C5D081D320E4E00C1E84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScheduleTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJR.ScheduleTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScheduleTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0C5CCE1D320E4E00C1E84E /* Build configuration list for PBXProject "ScheduleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C5CFE1D320E4E00C1E84E /* Debug */,
+				4A0C5CFF1D320E4E00C1E84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0C5D001D320E4E00C1E84E /* Build configuration list for PBXNativeTarget "ScheduleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C5D011D320E4E00C1E84E /* Debug */,
+				4A0C5D021D320E4E00C1E84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0C5D031D320E4E00C1E84E /* Build configuration list for PBXNativeTarget "ScheduleTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C5D041D320E4E00C1E84E /* Debug */,
+				4A0C5D051D320E4E00C1E84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0C5D061D320E4E00C1E84E /* Build configuration list for PBXNativeTarget "ScheduleTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C5D071D320E4E00C1E84E /* Debug */,
+				4A0C5D081D320E4E00C1E84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0C5CCB1D320E4E00C1E84E /* Project object */;
+}
